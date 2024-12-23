@@ -1,2 +1,49 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. *//* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Movie Container Styling */
+.movie-container {
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Movie Poster Styling */
+.moviePic {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+}
+
+.moviePic:hover {
+    opacity: 1;
+}
+
+/* Movie Detail Styling */
+.movieDetail {
+    position: relative;
+    top: 20px;
+    width: 90%;
+    margin: 20px auto 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
